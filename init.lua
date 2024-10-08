@@ -23,4 +23,4 @@ vim.cmd [[
 ]]
 
 vim.api.nvim_create_user_command("Crun", "!gcc %:t -o output.out && ./output.out && rm output.out", {})
-vim.api.nvim_create_user_command("Jrun", "!javac %:t && java %:t", {})
+vim.api.nvim_create_user_command("Jrun", "!javac -d out/ %:t && java -cp out/ %:t", {})
