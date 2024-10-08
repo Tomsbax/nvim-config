@@ -97,6 +97,6 @@ vim.keymap.set("n", "<leader><leader>", function()
 end)
 
 vim.keymap.set("t", "jk", "<C-\\><C-n>")
-vim.keymap.set("i", "<C-s>", "<cmd>w<CR>") 
-vim.keymap.set("n", "<C-s>", "<cmd>w<CR>") 
+vim.keymap.set("i", "<C-s>", "<cmd>w<CR>")
+vim.keymap.set("n", "<C-s>", "<cmd>w<CR>")
 vim.keymap.set("n", "<leader>w", "<C-w>")
